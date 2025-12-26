@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ФОН НА ВЕСЬ САЙТ (папка Images с большой буквы!) */
+body {
+  background-image: url("../Images/фон.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Каждый экран */
+.screen {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* РОЗОВАЯ ЛЕНТА */
+.ribbon{
+  position: absolute;
+  top: -62.7539px;
+  left: -326px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 11px 10px;
+  gap: 19px;
+
+  background: #ff2df7;
+  transform: rotate(-6deg);
+
+  width: 1970px;
+  height: 165px;
+
+  overflow: hidden;
+}
+
+.ribbon-track{
+  display: flex;
+  gap: 19px;
+  white-space: nowrap;
+}
+
+.ribbon span{
+  font-family: "Morpha Black", sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ТЕКСТ "КОРПОРАЦИЯ" */
+.corp {
+  position: absolute;
+  top: 274.2734px;
+  left: 261.7275px;
+
+  width: 599px;
+  height: 99px;
+
+  font-family: "CutOutOFFont", sans-serif;
+  font-weight: 400;
+  font-size: 82.491px;
+  line-height: 1;
+  letter-spacing: 0;
+
+  color: #FF0;
+
+  display: flex;
+  align-items: center;
+}
+
+/* МУСОРНЫЙ ПАКЕТ (лежит в Images/png/) */
+.trash-bag {
+  position: absolute;
+
+  top: 23.6406px;
+  left: 871.7326px;
+
+  width: 430.27px;
+  height: 723.4715px;
+
+
+background-image: url("../Images/png/trash-bag.png");
+
+
+  background-repeat: no-repeat;
+  background-size: 203.033% 120.75%;
+  background-position: -450.991px -60.477px;
+
+  transform: rotate(60deg);
+}

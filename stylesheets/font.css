@@ -1,0 +1,37 @@
+
+
+
+@font-face {
+  font-family: "Morpha";
+  src: url("../Fonts/Morpha.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Morpha Bold";
+  src: url("../Fonts/Morpha Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Morpha Black";
+  src: url("../Fonts/Morpha Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Morpha Thin";
+  src: url("../Fonts/Morpha Thin.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CutOutOFFont";
+  src: url("../Fonts/CutOutOFFont.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
