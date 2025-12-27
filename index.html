@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TRESH</title>
-    <link rel="stylesheet" href="stylesheets/style.css" />
-  </head>
-  <body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRESH</title>
+
+  <link rel="stylesheet" href="stylesheets/reset.css" />
+  <link rel="stylesheet" href="stylesheets/font.css" />
+  <link rel="stylesheet" href="stylesheets/layout.css" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+</head>
+
 <body>
-    <section class="screen one">
-      <div class="ribbon">
-        <div class="ribbon-track">
-          <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
-          <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
-        </div>
+
+  <!-- ЭКРАН 1 -->
+  <section class="screen one">
+    <div class="ribbon ribbon1">
+      <div class="ribbon-track">
+        <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
+        <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
       </div>
+    </div>
 
-      <div class="corp">КОРПОРАЦИЯ</div>
+    <div class="corp">КОРПОРАЦИЯ</div>
+     <div class="corp2">ГЛОБАЛЬНОГО</div>
+    <div class="trash-bag"></div>
+<img src="Images/svg/пятно.svg" alt="">
 
-      <div class="trash-bag"></div>
-    </section>
+  </section>
 
-    <section class="screen two">
+  <!-- ЭКРАН 2 -->
+  <section class="screen two">
 
-      
-    </section>
-    <section class="screen three"></section>
-    <section class="screen four"></section>
-  </body>
+    <!-- ЛЕНТА (под мусором) -->
+    <div class="ribbon ribbon2">
+      <div class="ribbon-track">
+        <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
+        <span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span><span>ТРЕШ</span>
+      <div class="trash-stream left">
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="trash-stream right">
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+      </div>
+    </div>
+
+    <!-- МУСОРКА / СВАЛКА (над лентой) -->
+    <div class="dump">
+      <img src="Images/png/свалка мусора.png" alt="">
+    </div>
+
+    <!-- ПЕРСОНАЖИ (над мусором) -->
+    <img class="man man-left"  src="Images/svg/man-left.svg"  alt="">
+    <img class="man man-right" src="Images/svg/man-right.svg" alt="">
+  </section>
+
+  <section class="screen three"></section>
+  <section class="screen four">
+    
+<div class="swamp-wrap">
+  <img class="swamp" src="Images/svg/swamp.svg" alt="">
+</div>
+
+
+<img class="pipe pipe-left" src="Images/svg/pipe.svg" alt="">
+<img class="pipe pipe-right" src="Images/svg/pipe.svg" alt="">
+
+<div class="stream stream-left"></div>
+<div class="stream stream-right"></div>
+
+<img class="water-left"  src="Images/svg/water.svg" alt="">
+<img class="water-right" src="Images/svg/water.svg" alt="">
+
+  </section>
+
+</body>
 </html>
+
